@@ -7,6 +7,17 @@ TODO:
 - py-turn-client-api.py
 - py-turn-client-demo.py
 
+url = https://github.com/node/turn-client.git
+
+@159.203.89.207
+root@BitCircle:~/newNwk/turn-client# python py-tcp-echo-server.py 159.203.89.207 3333
+
+sen@sen-ssd:~/nwk/turn-client$ python py-tcp-echo-client.py 159.203.89.207 3333 hi
+>>start
+send data:  hi
+recv data:  hi
+>>END!
+
 
 
 
